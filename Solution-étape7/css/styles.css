@@ -116,7 +116,7 @@ section{
 }
 
 .box a{
-    color: (44,44,44);
+    color: black;
     margin-top: auto;
     align-self: flex-end;
 }
