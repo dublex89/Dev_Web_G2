@@ -24,6 +24,7 @@ nav#menu {
     background-color: white;
     width: 100%;
     height: 80px;
+    z-index: 2;
 }
 
 nav{
@@ -41,9 +42,6 @@ ul{
     
 }
 
-nav#menu{
-    height: 80px;
-}
 
 
 nav#menu ul li  a{
@@ -100,6 +98,17 @@ main{
 aside{
     display: flex;
     flex-direction: column;
+   /* position: sticky;
+    align-self: flex-start;
+    top:80px;
+    background-color: white;*/
+    align-self: flex-start;
+    position: sticky;
+    max-height: calc(100vh - 80px);
+    top:80px;
+    background-color: white;
+    z-index: 1;
+    overflow: auto;
 }
 
 section{
